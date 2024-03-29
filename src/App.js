@@ -37,7 +37,7 @@ function App() {
         <input
           type='text'
           placeholder='Last Name'
-          onChange={changeLastHandler}
+          onChange={changeHandler}
         />
       </form>
    </div>
