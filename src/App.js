@@ -5,6 +5,7 @@ import { useState } from 'react';
 function App() {
 
   const {firstName, setFirstName} = useState("");
+  const {lastName, setLastName} = useState("");
   function changeFirstHandler(event){
     console.log("Printing Last Name")
     console.log(event.target.value);
