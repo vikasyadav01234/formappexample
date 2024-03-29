@@ -21,13 +21,17 @@ function App() {
   //}
 
   const [formData, setFormData] = useState ( {firstName:"", lastName:""});
+
+  function changeHandler(){
+
+  }
   return (
    <div className='App'>
       <form>
         <input
           type='text'
           placeholder='First Name'
-          onChange={changeFirstHandler}
+          onChange={changeHandler}
         />
         <br/>
         <input
