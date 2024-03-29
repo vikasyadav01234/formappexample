@@ -5,8 +5,10 @@ function App() {
   return (
    <div>
       <form>
-        <input/>
-               
+        <input
+          type='text'
+          placeholder='First Name'
+        />
       </form>
    </div>
   );
