@@ -3,7 +3,7 @@ import './App.css';
 
 function App() {
   function changeHandler(event){
-    console.log(event.target.value)
+    console.log(event.target.value);
   }
   return (
    <div>
