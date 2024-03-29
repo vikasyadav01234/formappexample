@@ -6,7 +6,7 @@ function App() {
     console.log(event.target.value);
   }
   return (
-   <div>
+   <div className='form'>
       <form>
         <input
           type='text'
@@ -15,7 +15,7 @@ function App() {
         />
       </form>
    </div>
-  );
+  ); 
 }
 
 export default App;

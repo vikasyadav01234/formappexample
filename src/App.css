@@ -1,6 +1,12 @@
 .App {
   text-align: center;
 }
+.form{
+  color: wheat;
+  background-color: black;
+  height: 100vh;
+  width: 100vw;
+}
 
 .App-logo {
   height: 40vmin;
@@ -21,7 +27,7 @@
   align-items: center;
   justify-content: center;
   font-size: calc(10px + 2vmin);
-  color: white;
+  color: gray;
 }
 
 .App-link {
