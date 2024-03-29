@@ -11,8 +11,8 @@ function App() {
     //console.log(event.target.value);
   }
   function changeLastHandler(event){
-    console.log("Printing Last Name")
-    console.log(event.target.value);
+    //console.log("Printing Last Name")
+    //console.log(event.target.value);
   }
   return (
    <div className='App'>
