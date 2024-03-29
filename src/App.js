@@ -6,7 +6,7 @@ function App() {
     console.log(event.target.value);
   }
   return (
-   <div className='form'>
+   <div className='App'>
       <form>
         <input
           type='text'
