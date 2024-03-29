@@ -4,21 +4,21 @@ import { useState } from 'react';
 
 function App() {
 
-  const {firstName, setFirstName} = useState("");
-  const {lastName, setLastName} = useState("");
+ // const {firstName, setFirstName} = useState("");
+  //const {lastName, setLastName} = useState("");
 
-  console.log(firstName);
-  console.log(lastName);
-  function changeFirstHandler(event){
+//  console.log(firstName);
+  //console.log(lastName);
+  //function changeFirstHandler(event){
     //console.log("Printing Last Name")
     //console.log(event.target.value);
     //setFirstName(event.target.value);
-  }
-  function changeLastHandler(event){
+ // }
+  //function changeLastHandler(event){
     //console.log("Printing Last Name")
     //console.log(event.target.value);
     //setLastName(event.target.value);
-  }
+  //}
   return (
    <div className='App'>
       <form>
