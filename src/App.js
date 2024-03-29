@@ -1,7 +1,10 @@
 import logo from './logo.svg';
 import './App.css';
+import { useState } from 'react';
 
 function App() {
+
+  const {firstName, setFirstName} = useState("");
   function changeFirstHandler(event){
     console.log("Printing Last Name")
     console.log(event.target.value);
