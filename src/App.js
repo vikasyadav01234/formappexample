@@ -6,6 +6,9 @@ function App() {
 
   const {firstName, setFirstName} = useState("");
   const {lastName, setLastName} = useState("");
+
+  console.log(firstName);
+  console.log(lastName);
   function changeFirstHandler(event){
     //console.log("Printing Last Name")
     //console.log(event.target.value);
