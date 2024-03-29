@@ -23,7 +23,11 @@ function App() {
   const [formData, setFormData] = useState ( {firstName:"", lastName:""});
 
   function changeHandler(){
-
+    setFormData(prevFormData => {
+      return {
+        
+      }
+    });
   }
   return (
    <div className='App'>
