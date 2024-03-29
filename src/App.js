@@ -2,7 +2,7 @@ import logo from './logo.svg';
 import './App.css';
 
 function App() {
-  function changeHandler(event){
+  function changeFirstHandler(event){
     console.log(event.target.value);
   }
   return (
@@ -11,7 +11,7 @@ function App() {
         <input
           type='text'
           placeholder='First Name'
-          onChange={changeHandler}
+          onChange={changeFirstHandler}
         />
       </form>
    </div>
