@@ -39,12 +39,14 @@ function App() {
           type='text'
           placeholder='First Name'
           onChange={changeHandler}
+          name="firstName"
         />
         <br/>
         <input
           type='text'
           placeholder='Last Name'
           onChange={changeHandler}
+          name="lastName"
         />
       </form>
    </div>
