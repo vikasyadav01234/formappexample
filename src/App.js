@@ -26,7 +26,7 @@ function App() {
   function changeHandler(){
     setFormData(prevFormData => {
       return {
-        
+        ...prevFormData,
       }
     });
   }
