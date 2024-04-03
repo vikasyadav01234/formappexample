@@ -28,7 +28,7 @@ function App() {
     setFormData(prevFormData => {
       return {
         ...prevFormData,
-        [event.target.name]:event.target.value
+        [name]: type === "checkbox" ? checked : value
       }
     });
   }
