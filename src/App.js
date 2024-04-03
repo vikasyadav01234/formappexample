@@ -51,7 +51,12 @@ function App() {
         />
         <br/>
         <br/>
-        <input/>
+        <input 
+          type='email'
+          placeholder='Enter your E-Mail here'
+          onChange={changeHandler}
+          name='email'
+        />
       </form>
    </div>
   ); 
