@@ -89,6 +89,8 @@ function App() {
           type='radio'
           onChange={changeHandler}
           name='mode'
+          value="Online-Mode"
+          id='Online-Mode'
         />
       </form>
    </div>
