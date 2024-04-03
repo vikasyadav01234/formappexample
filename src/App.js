@@ -78,7 +78,7 @@ function App() {
           name='isVisible'
           id="isVisible"
         />
-        <label>Am I Visible ?</label>
+        <label htmlFor='isVisible'>Am I Visible ?</label>
       </form>
    </div>
   ); 
