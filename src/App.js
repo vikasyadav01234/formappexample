@@ -21,7 +21,7 @@ function App() {
   //}
 
 
-  const [formData, setFormData] = useState ( {firstName:"", lastName:"", email:"", comments:""} );
+  const [formData, setFormData] = useState ( {firstName:"", lastName:"", email:"", comments:"", isVisible:true} );
   console.log(formData);
   function changeHandler(event){
     setFormData(prevFormData => {
@@ -69,6 +69,9 @@ function App() {
           name='comments'
           value={formData.comments}
         />
+
+        <br/>
+        <br/>
       </form>
    </div>
   ); 
