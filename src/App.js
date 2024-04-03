@@ -100,11 +100,11 @@ function App() {
           type='radio'
           onChange={changeHandler}
           name='mode'
-          value="Online-Mode"
-          id='Online-Mode'
-          checked={formData.mode === "Online-Mode"}
+          value="Offline-Mode"
+          id='Offline-Mode'
+          checked={formData.mode === "Offline-Mode"}
         />
-        <label htmlFor='Online-Mode'>Online-Mode</label>
+        <label htmlFor='Offline-Mode'>Offline-Mode</label>
       </form>
    </div>
   ); 
