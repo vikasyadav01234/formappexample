@@ -118,6 +118,12 @@ function App() {
 
         >
         <option value="scarpio">Scarpio</option>
+        <option value="fartuner">Fartuner</option>
+        <option value="thar">Thar</option>
+        <option value="scarpio">Scarpio</option>
+        <option value="scarpio">Scarpio</option>
+        <option value="scarpio">Scarpio</option>
+        <option value="scarpio">Scarpio</option>
           
         </select>        
       </form>
