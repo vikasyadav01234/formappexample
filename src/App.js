@@ -91,6 +91,7 @@ function App() {
           name='mode'
           value="Online-Mode"
           id='Online-Mode'
+          checked={formData.mode === "Online-Mode"}
         />
         <label htmlFor='Online-Mode'>Online-Mode</label>
       </form>
