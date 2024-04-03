@@ -77,6 +77,7 @@ function App() {
           onChange={changeHandler}
           name='isVisible'
           id="isVisible"
+          checked={formData.isVisible}
         />
         <label htmlFor='isVisible'>Am I Visible ?</label>
       </form>
