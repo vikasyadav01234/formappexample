@@ -92,6 +92,7 @@ function App() {
           value="Online-Mode"
           id='Online-Mode'
         />
+        <label htmlFor='Online-Mode'>Online-Mode</label>
       </form>
    </div>
   ); 
