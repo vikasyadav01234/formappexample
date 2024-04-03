@@ -44,6 +44,7 @@ function App() {
           value={formData.firstName}
         />
         <br/>
+        <br/>
         <input
           type='text'
           placeholder='Last Name'
