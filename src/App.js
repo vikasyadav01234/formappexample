@@ -76,6 +76,7 @@ function App() {
           type="checkbox"
           onChange={changeHandler}
           name='isVisible'
+          id="isVisible"
         />
         <label>Am I Visible ?</label>
       </form>
