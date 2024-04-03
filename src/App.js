@@ -58,6 +58,7 @@ function App() {
           placeholder='Enter your E-Mail here'
           onChange={changeHandler}
           name='email'
+          value={formData.email}
         />
       </form>
    </div>
