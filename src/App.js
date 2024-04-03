@@ -117,6 +117,7 @@ function App() {
           value={formData.favCar}
 
         >
+        <option value="scarpio">Scarpio</option>
           
         </select>        
       </form>
