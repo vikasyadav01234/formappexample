@@ -81,6 +81,9 @@ function App() {
           checked={formData.isVisible}
         />
         <label htmlFor='isVisible'>Am I Visible ?</label>
+
+        <br/>
+        <br/>
       </form>
    </div>
   ); 
