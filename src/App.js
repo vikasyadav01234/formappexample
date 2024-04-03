@@ -74,6 +74,8 @@ function App() {
         <br/>
         <input
           type="checkbox"
+          onChange={changeHandler}
+          name='isVisible'
         />
       </form>
    </div>
