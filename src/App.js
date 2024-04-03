@@ -121,10 +121,7 @@ function App() {
         <option value="fartuner">Fartuner</option>
         <option value="thar">Thar</option>
         <option value="Legender">Legender</option>
-        <option value="defender">Defender</option>
-        <option value="scarpio">Scarpio</option>
-        <option value="scarpio">Scarpio</option>
-          
+        <option value="defender">Defender</option>          
         </select>        
       </form>
    </div>
