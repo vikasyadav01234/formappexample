@@ -21,7 +21,8 @@ function App() {
   //}
 
 
-  const [formData, setFormData] = useState ( {firstName:"", lastName:"", email:"", comments:"", isVisible:true} );
+  const [formData, setFormData] = useState ( {firstName:"", lastName:"", email:"", comments:"",
+   isVisible:true, mode:""} );
   console.log(formData);
   function changeHandler(event){
     const {name, value, checked, type} = event.target
@@ -84,6 +85,11 @@ function App() {
 
         <br/>
         <br/>
+        <input
+          type='radio'
+          onChange={changeHandler}
+          name=''
+        />
       </form>
    </div>
   ); 
