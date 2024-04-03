@@ -117,13 +117,14 @@ function App() {
           value={formData.favCar}
 
         >
+        <label htmlFor='favCar'>Tell me your Favorite Car </label>     
         <option value="scarpio">Scarpio</option>
         <option value="fartuner">Fartuner</option>
         <option value="thar">Thar</option>
         <option value="Legender">Legender</option>
         <option value="defender">Defender</option>          
         </select>   
-        <label htmlFor='favCar'>Tell me your Favorite Car ?</label>     
+    
       </form>
    </div>
   ); 
