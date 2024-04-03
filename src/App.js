@@ -33,7 +33,10 @@ function App() {
       }
     });
   }
-  
+  function submitHandler(event) {
+    event.preventDefault();
+    //print
+  }
   return (
 
    <div className='App'>
