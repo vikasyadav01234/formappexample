@@ -24,6 +24,7 @@ function App() {
   const [formData, setFormData] = useState ( {firstName:"", lastName:"", email:"", comments:"", isVisible:true} );
   console.log(formData);
   function changeHandler(event){
+    const {name, value, checked, type} = event.target
     setFormData(prevFormData => {
       return {
         ...prevFormData,
