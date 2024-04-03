@@ -85,6 +85,9 @@ function App() {
 
         <br/>
         <br/>
+        <fieldset>
+          <legend>Mode:</legend>
+        </fieldset>
         <input
           type='radio'
           onChange={changeHandler}
