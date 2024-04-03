@@ -94,6 +94,17 @@ function App() {
           checked={formData.mode === "Online-Mode"}
         />
         <label htmlFor='Online-Mode'>Online-Mode</label>
+        <br/>
+        <br/>
+        <input
+          type='radio'
+          onChange={changeHandler}
+          name='mode'
+          value="Online-Mode"
+          id='Online-Mode'
+          checked={formData.mode === "Online-Mode"}
+        />
+        <label htmlFor='Online-Mode'>Online-Mode</label>
       </form>
    </div>
   ); 
