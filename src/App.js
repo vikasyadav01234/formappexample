@@ -113,7 +113,9 @@ function App() {
         <select
           onChange={changeHandler}
           name="favCar"
-          
+          id="favCar"
+          value={formData.favCar}
+
         >
           
         </select>        
