@@ -112,7 +112,7 @@ function App() {
 
         
         <label htmlFor='favCar'>Tell me your Favorite Car </label>
-        
+
         <select
           onChange={changeHandler}
           name="favCar"
@@ -126,6 +126,9 @@ function App() {
         <option value="Legender">Legender</option>
         <option value="defender">Defender</option>          
         </select>   
+
+        <br/>
+        <br/>
     
       </form>
    </div>
