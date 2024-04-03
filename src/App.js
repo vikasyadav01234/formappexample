@@ -21,7 +21,7 @@ function App() {
   //}
 
 
-  const [formData, setFormData] = useState ( {firstName:"", lastName:"", email:""} );
+  const [formData, setFormData] = useState ( {firstName:"", lastName:"", email:"", comments:""} );
   
   function changeHandler(event){
     setFormData(prevFormData => {
