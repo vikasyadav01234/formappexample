@@ -88,7 +88,7 @@ function App() {
         <input
           type='radio'
           onChange={changeHandler}
-          name=''
+          name='mode'
         />
       </form>
    </div>
