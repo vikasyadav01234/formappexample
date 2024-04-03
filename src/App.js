@@ -37,6 +37,7 @@ function App() {
     event.preventDefault();
     //print
     console.log("Finally printing the entireform ka data")
+    console.log(formData);
   }
   return (
 
