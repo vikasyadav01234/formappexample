@@ -122,7 +122,8 @@ function App() {
         <option value="thar">Thar</option>
         <option value="Legender">Legender</option>
         <option value="defender">Defender</option>          
-        </select>        
+        </select>   
+        <label htmlFor='favCar'>Tell me your Favorite Car ?</label>     
       </form>
    </div>
   ); 
