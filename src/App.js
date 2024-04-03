@@ -61,6 +61,13 @@ function App() {
           name='email'
           value={formData.email}
         />
+
+        <textarea
+          placeholder='Enter Your Comments Here'
+          onChange={changeHandler}
+          name='comments'
+          value={formData.comments}
+        />
       </form>
    </div>
   ); 
