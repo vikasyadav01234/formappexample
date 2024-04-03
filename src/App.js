@@ -72,6 +72,9 @@ function App() {
 
         <br/>
         <br/>
+        <input
+          type="checkbox"
+        />
       </form>
    </div>
   ); 
