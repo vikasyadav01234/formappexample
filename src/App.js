@@ -41,6 +41,7 @@ function App() {
           placeholder='First Name'
           onChange={changeHandler}
           name="firstName"
+          value={formData.firstName}
         />
         <br/>
         <input
