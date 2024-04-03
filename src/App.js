@@ -37,7 +37,7 @@ function App() {
 
    <div className='App'>
    
-      <form>
+      <form onSubmit={submitHandler}>
         <input
           type='text'
           placeholder='First Name'
