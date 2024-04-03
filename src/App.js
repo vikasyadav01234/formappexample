@@ -112,6 +112,7 @@ function App() {
 
         
         <label htmlFor='favCar'>Tell me your Favorite Car </label>
+        
         <select
           onChange={changeHandler}
           name="favCar"
