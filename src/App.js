@@ -49,6 +49,7 @@ function App() {
           placeholder='Last Name'
           onChange={changeHandler}
           name="lastName"
+          value={formData.lastName}
         />
         <br/>
         <br/>
