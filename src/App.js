@@ -33,8 +33,9 @@ function App() {
       }
     });
   }
+
   function submitHandler(event) {
-    
+
     event.preventDefault();
     //print
     console.log("Finally printing the entireform ka data")
